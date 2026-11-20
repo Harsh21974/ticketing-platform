@@ -9,9 +9,4 @@ public class TicketingApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TicketingApplication.class, args);
 	}
-	
-	@org.junit.jupiter.api.Test
-    void shouldFail() {
-        org.junit.jupiter.api.Assertions.fail();
-    }
 }
